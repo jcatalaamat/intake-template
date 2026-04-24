@@ -1,0 +1,15 @@
+.DS_Store
+*.zip
+.vscode/
+.idea/
+
+# any actual filled intake should go to a separate private repo, not the template itself
+# but guard against accidental commits of real client data
+files/brand/*
+!files/brand/.gitkeep
+files/reference-designs/*
+!files/reference-designs/.gitkeep
+files/content/*
+!files/content/.gitkeep
+files/data/*
+!files/data/.gitkeep
